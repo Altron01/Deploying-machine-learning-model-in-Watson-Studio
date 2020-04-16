@@ -5,13 +5,13 @@ Note: I am assuming that you already have an IBM account and provisioned a Watso
 
 ### Content
 
-* Overview
-* Assets
-* Environment
-* Jobs
-* Deployments
-* Access
-* Settings
+* [Overview](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#overview-tab)
+* [Assets](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#assets)
+* [Environment](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#environment)
+* [Jobs](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#jobs)
+* [Deployments](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#deployments)
+* [Access](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#access)
+* [Settings](https://github.com/Altron01/Watson-Studio-Tutorials/tree/master/General%20overview#settings)
 
 ### Overview tab
 
@@ -34,3 +34,8 @@ The environment tab list all our different environment, their computing capabili
 Note: every project come with free 50 CUH per month.
 
 ![](/General%20overview/Images/IMG_GO_Env.png)
+
+### Jobs
+### Deployments
+### Access
+### Settings
