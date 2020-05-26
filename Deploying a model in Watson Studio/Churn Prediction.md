@@ -407,7 +407,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](Images/output_18_0.png)
 
 
 2. Next is to measure the correlation between features to make sure there are no overlapping between them. As our model has categorical and continous features, we cannot use the regular pearson formula for all. Below there is a matrix of posible metrics to use depending on the situation(The link to the source is at the top of the tutorial)
@@ -467,7 +467,7 @@ sns.heatmap(corr_matrix, annot = True, fmt='.1g', linewidths=.5, ax=ax, cmap= 'c
 
 
 
-![png](output_23_1.png)
+![png](Images/output_23_1.png)
 
 
 
