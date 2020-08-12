@@ -5,7 +5,7 @@
 
 This project teaches the basic about developing and deploying a machine learning model in from IBM Watson Studio to the IBM cloud. It consist in using data client data from a telecommunication company to create a model that predicts if a customer is going to churn or not, we will go through the basic steps of model building but have a focus on training and deploying the model with diferent libraries to make sure all the common cases are covered.
 
-As for the datasets characteristics, it containes 7043 rows (customers) and 21 columns (features) which includes gender, tenure, if the customer is a senior citizen and many others so there is information for our model to learn. The data, as seen during the cleaning, is mostly out of null values and ready to use. Afterwards we check the correlation between features but since not all of them are of thesame type then it was necessary to use two types of correlation measures. It also is important to state that there is a heavy overrepresentation of "No churn" cases which would need to be oversampled to correctly train the model. Finally it was decided on a Logistic Regresion model since it is was on the simplest to apply and most common to use.
+As for the datasets characteristics, it containes 7043 rows (customers) and 21 columns (features) which includes gender, tenure, if the customer is a senior citizen and many others factors so there is information for our model to learn. The data, as seen during the cleaning, is mostly out of null values and ready to use. Afterwards we check the correlation between features but since not all of them are of the same type it was necessary to use two correlation metrics. It is also important to state that there is a heavy over representation of "No churn" cases which was oversampled to correctly train the model. Finally it was decided on a Logistic Regresion model since it is was on the simplest to apply and will help us deploy faster.
 
 #### Packages
 
@@ -31,7 +31,7 @@ Correlation between variables: https://medium.com/@outside2SDs/an-overview-of-co
 
 #### Personal conclusion and acknowledgments
 
-As a small conclusion I would like to say that I had a lot of fun making this tutorial, Data Analysis and model building are very scary areas to get into since there is so much to learn and heavy math involved but luckily modern tools and libraries can save us some work. Although I had some training in the area before hand but it is always good to refresh knwoledge and learn new stuff(stackoverflow is the way). As a final work I would like to say thank you to my data preparation professor Robert Nisbet at UCI, his class helped me a lot and gave me a clear view for this project.
+As a small conclusion I would like to say that I had a lot of fun making this tutorial, Data Analysis and model building are very scary areas to get into, there is so much to learn and heavy math involved but modern tools and libraries can save us some work. Although I had some training in the area before hand it is always good to refresh knwoledge and learn new stuff(stackoverflow is the way). As a final word I would like to say thank you to my data preparation professor Robert Nisbet at UCI, his class helped me a lot and gave me a clear view for this project.
 
 
 ```python
